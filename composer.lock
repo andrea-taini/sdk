@@ -4456,16 +4456,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.4.5",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "129a63b3bc7caeb593c224c41f420675e63cfefc"
+                "reference": "981cc368a216c988e862a75e526b6076987d1b50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/129a63b3bc7caeb593c224c41f420675e63cfefc",
-                "reference": "129a63b3bc7caeb593c224c41f420675e63cfefc",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/981cc368a216c988e862a75e526b6076987d1b50",
+                "reference": "981cc368a216c988e862a75e526b6076987d1b50",
                 "shasum": ""
             },
             "require": {
@@ -4494,22 +4494,22 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.4.5"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.5.1"
             },
-            "time": "2022-04-22T11:11:01+00:00"
+            "time": "2022-05-05T11:32:40+00:00"
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.6.2",
+            "version": "1.6.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "becb9603a31d70f5007d505877a7b812598dfe46"
+                "reference": "d76498c5531232cb8386ceb6004f7e013138d3ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/becb9603a31d70f5007d505877a7b812598dfe46",
-                "reference": "becb9603a31d70f5007d505877a7b812598dfe46",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d76498c5531232cb8386ceb6004f7e013138d3ba",
+                "reference": "d76498c5531232cb8386ceb6004f7e013138d3ba",
                 "shasum": ""
             },
             "require": {
@@ -4535,7 +4535,7 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.6.2"
+                "source": "https://github.com/phpstan/phpstan/tree/1.6.8"
             },
             "funding": [
                 {
@@ -4555,7 +4555,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-27T11:05:24+00:00"
+            "time": "2022-05-10T06:54:21+00:00"
         },
         {
             "name": "propel/propel",
@@ -5289,32 +5289,32 @@
         },
         {
             "name": "slevomat/coding-standard",
-            "version": "7.1",
+            "version": "7.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "b521bd358b5f7a7d69e9637fd139e036d8adeb6f"
+                "reference": "b4f96a8beea515d2d89141b7b9ad72f526d84071"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/b521bd358b5f7a7d69e9637fd139e036d8adeb6f",
-                "reference": "b521bd358b5f7a7d69e9637fd139e036d8adeb6f",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/b4f96a8beea515d2d89141b7b9ad72f526d84071",
+                "reference": "b4f96a8beea515d2d89141b7b9ad72f526d84071",
                 "shasum": ""
             },
             "require": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2 || ^0.7",
                 "php": "^7.2 || ^8.0",
-                "phpstan/phpdoc-parser": "^1.4.1",
+                "phpstan/phpdoc-parser": "^1.5.1",
                 "squizlabs/php_codesniffer": "^3.6.2"
             },
             "require-dev": {
-                "phing/phing": "2.17.2",
+                "phing/phing": "2.17.3",
                 "php-parallel-lint/php-parallel-lint": "1.3.2",
-                "phpstan/phpstan": "1.4.10|1.5.2",
+                "phpstan/phpstan": "1.4.10|1.6.7",
                 "phpstan/phpstan-deprecation-rules": "1.0.0",
-                "phpstan/phpstan-phpunit": "1.0.0|1.1.0",
-                "phpstan/phpstan-strict-rules": "1.1.0",
-                "phpunit/phpunit": "7.5.20|8.5.21|9.5.19"
+                "phpstan/phpstan-phpunit": "1.0.0|1.1.1",
+                "phpstan/phpstan-strict-rules": "1.2.3",
+                "phpunit/phpunit": "7.5.20|8.5.21|9.5.20"
             },
             "type": "phpcodesniffer-standard",
             "extra": {
@@ -5334,7 +5334,7 @@
             "description": "Slevomat Coding Standard for PHP_CodeSniffer complements Consistence Coding Standard by providing sniffs with additional checks.",
             "support": {
                 "issues": "https://github.com/slevomat/coding-standard/issues",
-                "source": "https://github.com/slevomat/coding-standard/tree/7.1"
+                "source": "https://github.com/slevomat/coding-standard/tree/7.2.0"
             },
             "funding": [
                 {
@@ -5346,7 +5346,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-29T12:44:16+00:00"
+            "time": "2022-05-06T10:58:42+00:00"
         },
         {
             "name": "spryker-sdk/composer-replace",
@@ -5390,30 +5390,30 @@
         },
         {
             "name": "spryker-sdk/integrator",
-            "version": "dev-feature/pplus-510-integrator-as-part-of-upgrader",
+            "version": "dev-temp/PPLUS-1265-bugfix",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker-sdk/integrator.git",
-                "reference": "37bf7d65f9b222d1d1fc7613f726171b94f3d7b4"
+                "reference": "7ff77e542caa8e7db2bc6aeb8deafba3c0ee6515"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker-sdk/integrator/zipball/37bf7d65f9b222d1d1fc7613f726171b94f3d7b4",
-                "reference": "37bf7d65f9b222d1d1fc7613f726171b94f3d7b4",
+                "url": "https://api.github.com/repos/spryker-sdk/integrator/zipball/7ff77e542caa8e7db2bc6aeb8deafba3c0ee6515",
+                "reference": "7ff77e542caa8e7db2bc6aeb8deafba3c0ee6515",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0.0 || ^2.0.0",
                 "composer/composer": "^2.1.0",
-                "laminas/laminas-filter": "^2.11.0",
+                "laminas/laminas-filter": "^2.14.0",
                 "nikic/php-parser": "^4.3.0",
-                "php": ">=7.4",
+                "php": ">=8.0",
                 "sebastian/diff": "^4.0.0",
                 "symfony/console": "^5.3.0",
                 "symfony/finder": "^5.3.0"
             },
             "require-dev": {
-                "phpstan/phpstan": "^1.0.0",
+                "phpstan/phpstan": "^1.6.5",
                 "phpunit/phpunit": "^9.5.0",
                 "spryker/code-sniffer": "@stable",
                 "symfony/filesystem": "^5.3.0"
@@ -5421,12 +5421,11 @@
             "bin": [
                 "bin/integrator"
             ],
-            "type": "composer-plugin",
+            "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0.x-dev"
-                },
-                "class": "SprykerSdk\\Integrator\\Plugin\\Composer\\InstallerComposerPlugin"
+                }
             },
             "autoload": {
                 "psr-4": {
@@ -5442,7 +5441,7 @@
                 "issues": "https://github.com/spryker-sdk/integrator/issues",
                 "source": "https://github.com/spryker-sdk/integrator/tree/feature/pplus-510-integrator-as-part-of-upgrader"
             },
-            "time": "2022-04-27T16:19:37+00:00"
+            "time": "2022-05-08T17:28:41+00:00"
         },
         {
             "name": "spryker-sdk/sdk-contracts",
@@ -5571,12 +5570,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker-sdk/upgrader.git",
-                "reference": "64e6f99876c517c9d4388becc87c0b33d1e363db"
+                "reference": "b0ef6c3a14ff1c275476cccc4c5e630bb66ffcef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker-sdk/upgrader/zipball/64e6f99876c517c9d4388becc87c0b33d1e363db",
-                "reference": "64e6f99876c517c9d4388becc87c0b33d1e363db",
+                "url": "https://api.github.com/repos/spryker-sdk/upgrader/zipball/b0ef6c3a14ff1c275476cccc4c5e630bb66ffcef",
+                "reference": "b0ef6c3a14ff1c275476cccc4c5e630bb66ffcef",
                 "shasum": ""
             },
             "require": {
@@ -5591,7 +5590,7 @@
                 "nikic/php-parser": "^4.13",
                 "php": ">=8.0",
                 "phpstan/phpstan": "^1.2",
-                "spryker-sdk/integrator": "dev-feature/pplus-510-integrator-as-part-of-upgrader",
+                "spryker-sdk/integrator": "dev-temp/PPLUS-1265-bugfix",
                 "spryker-sdk/sdk-contracts": "dev-master",
                 "spryker/code-sniffer": "^0.17.3",
                 "symfony/config": "^5.0",
@@ -5627,7 +5626,7 @@
                 "issues": "https://github.com/spryker-sdk/upgrader/issues",
                 "source": "https://github.com/spryker-sdk/upgrader/tree/feature/pplust-510/master-intergrator-as-part-of-upgrader"
             },
-            "time": "2022-05-11T11:27:19+00:00"
+            "time": "2022-05-12T15:09:55+00:00"
         },
         {
             "name": "spryker/acl-entity-extension",
@@ -5848,16 +5847,16 @@
         },
         {
             "name": "spryker/code-sniffer",
-            "version": "0.17.6",
+            "version": "0.17.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/code-sniffer.git",
-                "reference": "0c24b922986fd9a0ed205cd6e18d82d03e119934"
+                "reference": "ce91e60b909e280c4a90eeeab2a7e8f2f337153c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/code-sniffer/zipball/0c24b922986fd9a0ed205cd6e18d82d03e119934",
-                "reference": "0c24b922986fd9a0ed205cd6e18d82d03e119934",
+                "url": "https://api.github.com/repos/spryker/code-sniffer/zipball/ce91e60b909e280c4a90eeeab2a7e8f2f337153c",
+                "reference": "ce91e60b909e280c4a90eeeab2a7e8f2f337153c",
                 "shasum": ""
             },
             "require": {
@@ -5901,7 +5900,7 @@
                 "issues": "https://github.com/spryker/code-sniffer/issues",
                 "source": "https://github.com/spryker/code-sniffer"
             },
-            "time": "2022-04-22T11:59:34+00:00"
+            "time": "2022-05-04T13:31:06+00:00"
         },
         {
             "name": "spryker/config",
@@ -8170,16 +8169,16 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v4.4.37",
+            "version": "v4.4.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "5de6c6e7f52b364840e53851c126be4d71e60470"
+                "reference": "6637e62480b60817b9a6984154a533e8e64c6bd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/5de6c6e7f52b364840e53851c126be4d71e60470",
-                "reference": "5de6c6e7f52b364840e53851c126be4d71e60470",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/6637e62480b60817b9a6984154a533e8e64c6bd5",
+                "reference": "6637e62480b60817b9a6984154a533e8e64c6bd5",
                 "shasum": ""
             },
             "require": {
@@ -8218,7 +8217,7 @@
             "description": "Provides tools to ease debugging PHP code",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/debug/tree/v4.4.37"
+                "source": "https://github.com/symfony/debug/tree/v4.4.41"
             },
             "funding": [
                 {
@@ -8234,7 +8233,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-02T09:41:36+00:00"
+            "time": "2022-04-12T15:19:55+00:00"
         },
         {
             "name": "symfony/dependency-injection",
@@ -15624,5 +15623,5 @@
         "composer-runtime-api": "^2.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }
