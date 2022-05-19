@@ -1,9 +1,10 @@
 {
     "name": "spryker-sdk/sdk",
     "description": "The Spryker SDK aims to provide a single entry point to accelerate your productivity working with Spryker.",
-    "type": "project",
+    "type": "library",
     "license": "proprietary",
     "minimum-stability": "dev",
+    "bin": ["bin/sdk"],
     "prefer-stable": true,
     "require": {
         "php": ">=8.0",
