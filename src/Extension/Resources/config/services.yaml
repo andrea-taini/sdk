@@ -47,6 +47,18 @@ services:
         - '@generate_pbc_update_dependencies_command'
         - '@generate_pbc_add_docker_sdk_command'
         - '@generate_pbc_next_steps_command'
+  deployment_task:
+    class: SprykerSdk\Sdk\Extension\Tasks\DeploymentTask
+    tags: [ 'sdk.task' ]
+  deployment_task1:
+    class: SprykerSdk\Sdk\Extension\Tasks\Deployment1Task
+    tags: [ 'sdk.task' ]
+  deployment_task2:
+    class: SprykerSdk\Sdk\Extension\Tasks\Deployment2Task
+    tags: [ 'sdk.task' ]
+  agree_task:
+    class: SprykerSdk\Sdk\Extension\Tasks\AgreeTask
+    tags: [ 'sdk.task' ]
   sdk_directory_value_resolver:
     class: SprykerSdk\Sdk\Extension\ValueResolvers\SdkDirectoryValueResolver
     tags: ["sdk.value_resolver"]

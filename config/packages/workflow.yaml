@@ -129,4 +129,51 @@ framework:
             task: acp:pbc:validate
             error: Now you need to fix manually and continue with the workflow afterwards.
             name: ValidatePbc
+    deployment:
+      type: workflow
+      marking_store:
+        type: method
+        property: status
+      supports:
+        - SprykerSdk\SdkContracts\Entity\WorkflowInterface
+      initial_marking: code
+      places:
+        - code
+        - build
+        - deploy-staging
+        - run-integration
+        - snapshot
+        - deploy-production
+        - production
+      transitions:
+        Source Code Management Init:
+          from: code
+          to: build
+          metadata:
+            task: generate:pbc
+        Travis Build & Bundling:
+          from: build
+          to: deploy-staging
+          metadata:
+            task: generate:pbc:one
+        Deploy to Staging Environment:
+          from: deploy-staging
+          to: run-integration
+          metadata:
+            task: agreement:pbc
+        Run Integration & Load Testing:
+          from: run-integration
+          to: snapshot
+          metadata:
+            task: agreement:pbc
+        ISO Compliance Snapshot:
+          from: snapshot
+          to: deploy-production
+          metadata:
+            task: generate:pbc:two
+        Deploy to production:
+          from: deploy-production
+          to: production
+          metadata:
+            task: agreement:pbc
 

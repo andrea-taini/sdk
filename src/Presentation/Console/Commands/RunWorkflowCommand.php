@@ -64,21 +64,17 @@ class RunWorkflowCommand extends Command
      */
     public function run(InputInterface $input, OutputInterface $output): int
     {
-        $currentTask = null;
-        $context = new Context();
         while (true) {
+            $context = new Context();
             $enabledTasksIds = $this->projectWorkflow->getWorkflowTasks();
 
             if (!$enabledTasksIds) {
-                $output->writeln('<error>Error: You don\'t init workflow or don\'t have any task</error>');
+                $output->writeln('<info>You don\'t init workflow or don\'t have any task</info>');
 
                 return static::FAILURE;
             }
 
             $taskId = $this->getTaskId($enabledTasksIds);
-            if ($currentTask === $taskId) {
-                break;
-            }
             $currentTask = $taskId;
             $flippedTaskIds = array_flip($enabledTasksIds);
             $output->writeln(sprintf('<info>Running task `%s` ...</info>', $flippedTaskIds[$currentTask]));
@@ -90,10 +86,9 @@ class RunWorkflowCommand extends Command
 
                 return static::FAILURE;
             }
-
+            $this->writeFilteredMessages($output, $context);
             $output->writeln(sprintf('<info>The `%s` task successfully done.</info>', $flippedTaskIds[$currentTask]));
         }
-        $this->writeFilteredMessages($output, $context);
 
         return static::SUCCESS;
     }
